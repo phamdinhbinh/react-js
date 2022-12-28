@@ -1,4 +1,4 @@
-table, th, td {
+table, th, td ,tr {
     border: 1px solid black;
     border-collapse: collapse;
     width: 500px;
@@ -7,4 +7,23 @@ table, th, td {
 
 th, td {
     height: 30px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+#header{
+    position: relative;
+}
+#header ul {
+display: inline-block;
+}
+li {
+    list-style: none;
+}
+#header #nav2 {
+    position: absolute;
+    margin-top: 16px;
+    right: 0px;
+    padding-right: 40px;
 }
